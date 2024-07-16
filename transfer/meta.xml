@@ -1,0 +1,7 @@
+<meta> 
+	<script src="shared.lua" type="shared"/>
+	<script src="client.lua" type="client" cache="false" compile="1"/>
+	<script src="server.lua" type="server"/>
+	
+	<min_mta_version server="1.5" client="1.5"></min_mta_version>
+</meta>

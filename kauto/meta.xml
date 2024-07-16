@@ -1,0 +1,17 @@
+<meta>
+	<info author="Gta-Ar" version="1.0" name="Vehicle System" type="script" />
+	<oop>true</oop>
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" />
+	<script src="fix-bug.lua" type="server" />
+
+	<script src="colorpicker/colorpicker.lua" type="client" cache="false" />	
+	<file src="colorpicker/palette.png" />
+	<file src="colorpicker/alpha.png" />
+	
+	<export function="destroyVehicleStrPArk" type="server" />
+	<export function="playerVehicleDs" type="server" />
+	<export function="updateNumbers" type="server" />
+	<export function="getNamesTable" type="client" />
+	<export function="setNewNumbers" type="server" />
+</meta>

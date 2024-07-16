@@ -1,0 +1,17 @@
+<meta> 
+	<script src="tools/sv_sql.lua" type="server" compile="0"/>
+	<script src="tools/sh_event.lua" type="shared" cache="false" compile="0"/> 
+	<script src="tools/sh_tools.lua" type="shared" cache="false" compile="0"/>
+	<script src="tools/sh_newEvent.lua" type="shared" cache="false" compile="1"/>
+
+	<file src="numbers/plates/ru.png"/>
+	<file src="numbers/plates/font.ttf"/>
+	<script src="numbers/points.lua" type="shared"/>
+	<script src="numbers/client.lua" type="client" cache="false" compile="1"/>
+	<script src="numbers/server.lua" type="server"/>
+	<script src="numbers/draw.lua" type="client" cache="false" compile="1"/>
+	<script src="numbers/admin/server.lua" type="server"/>
+	<script src="numbers/admin/client.lua" type="client" cache="false" compile="1"/>
+	
+	<min_mta_version server="1.5" client="1.5"></min_mta_version>
+</meta>
